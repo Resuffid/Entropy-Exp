@@ -15,6 +15,7 @@
 \newgeometry{tmargin=2.5cm, bmargin=2.5cm, lmargin=2.5cm, rmargin=2.5cm}
 \setlength{\parindent}{3in}
 \setlength{\parskip}{0pt}
+\linenumbers
 \doublespacing
 \sectionfont{\centering}
 \renewcommand{\bibsection}{\section*{\large{\textbf{\textsc{\centering{Literatura}}}}}}
@@ -37,7 +38,7 @@
   \textit{Laura Plichta, Wiktor Warchałowski, Zofia Załęska\\}
   Wydział Nauk o Zdrowiu, Gdański Uniwersytet Medyczny\\
   \vspace{3cm}
-  Praca zaliczeniowa z przedmiotu \\ Metodologia Badań Psychologicznych 2 \\ napisana pod kierunkiem dr Krzysztofa Basińskiego\\
+  Praca zaliczeniowa z przedmiotu \\ Metodologia Badań Psychologicznych 2 \\ napisana pod kierunkiem dr. Krzysztofa Basińskiego\\
   \vspace{3cm}
   Gdańsk, 20 Stycznia 2023
   \end{center}
@@ -69,7 +70,7 @@ Gdzie $n$ oznacza ilość obiektów, $i$ to dany obiekt, zaś $p$ jest prawdopod
 \paragraph{}
 Zmienna niezależna, jaką jest indukowana entropia otoczenia, została zoperacjonalizowana poprzez wprowadzenie w pierwszym warunku sprecyzowanej ilości obiektów w tym samym kolorze ($\Delta H_{f1}=0$, zaś w drugim warunku tej samej ilości obiektów, lecz w różnych kolorach ($\Delta H_{f1}<\Delta H_{f2}$). Dzięki użyciu takiej samej ilości obiektów w obu warunkach entropia maksymalna ($\Delta H_{max}$) będzie równa. Manipulacja zachodzi tylko kolorem, ponieważ tylko ich entropia dodatnio koreluje z przyjemnością (pleasure) \citep{stamps_entropy_2004, stamps_entropy_2002}.\\
 Druga zmienna niezależna, jaką jest trening uważności, została zoperacjonalizowana poprzez wykonanie jednego wzoru kolorowanki uważności w takim samym czasie lub kolorowaniu pustej kartki.\\
-Zmienną zależną, selektywną uwagę wzrokową, zmierzono za pomocą czasu reakcji podczas wykonywania testu Eriksena (tzw. \textit{flaker test}) oraz stopnia jego poprawności.
+Zmienną zależną, selektywną uwagę wzrokową, zmierzono za pomocą czasu reakcji podczas wykonywania testu Eriksena (tzw. \textit{flaker test}) oraz stopnia jego poprawności. Został on zaprogramowany w oprogramowaniu PsychoPy \citep{peirce_psychopy2_2019}. Polegał on na jak najszybszym rozpoznaniu kierunku środkowej strzałki w układzie pięciu strzałek. Miał on 6 możliwych wariantów. W dwóch z nich wszystkie stzałki były w jednym kierunku, w kolejnych dwóch przypadkach środkowe strzałki były w innym kierunku niż pozostałe, zaś w ostatnich dwóch środkowe strzałki były na tle bodźca neurtralnego - poziomych kreskach.
 \subsection*{\normalsize{\textbf{Osoby badane}}}
 \paragraph{}
 Uczestnicy zostali dobrani za pomocą doboru kuli śniegowej z populacji, zaś do losowego przypisania ich do grup niezależnych, czyli dwóch grup z różną indukowaną entropią otoczenia, wykorzystano randomizację w blokach.
@@ -78,19 +79,99 @@ Uczestnicy zostali dobrani za pomocą doboru kuli śniegowej z populacji, zaś d
 Każdy z badanych na początku został poinformowany o celu badania, jego przebiegu, dobrowolności i użycia wyników zebranych w badaniu oraz ustnie wyraził świadomą zgodę.
 \paragraph{}
 Za każdym razem w sali znajdowało się 30 kulek z basenu dla dzieci o różnych kolorach.
-\subsubsection*{\small{\textit{Grupa z niską entropią otoczenia:}}}
 \paragraph{}
-Badani zostali zaproszeni pojedynczo do sali w której panował relatywny początek, a 30 kulek rozproszonych w pomieszczeniu było takiego samego koloru. Następnie badany został poproszony o kolorowanie pustej kartki przez 10 minut (warunek “A”). Po tym czasie został przeprowadzony flanker test i zmierzono czas reakcji badanego. Po przeprowadzeniu testu, badany został poproszony o kolorowanie mandali przez 10 minut (warunek “B”). Po tej aktywności badany został ponownie poproszony o wykonanie flanker testu. Taka procedura została przeprowadzona dla każdego z badanych dobranych do grupy z niską entropią jednakże u połowy badanych zmieniono kolejność manipulacji eksperymentalnej tj. najpierw przeprowadzono warunek “B”, a jako drugi warunek “A”. Do obu opcji badani zostali przydzieleni losowo przez randomizację.
-\subsubsection*{\small{\textit{Grupa z wysoką entropią otoczenia:}}}
+\textbf{Grupa z niską entropią otoczenia.} Badani zostali zaproszeni pojedynczo do sali w której panował relatywny początek, a 30 kulek rozproszonych w pomieszczeniu było takiego samego koloru. Następnie badany został poproszony o kolorowanie pustej kartki przez 10 minut (warunek “A”). Po tym czasie został przeprowadzony flanker test i zmierzono czas reakcji badanego. Po przeprowadzeniu testu, badany został poproszony o kolorowanie mandali przez 10 minut (warunek “B”). Po tej aktywności badany został ponownie poproszony o wykonanie flanker testu. Taka procedura została przeprowadzona dla każdego z badanych dobranych do grupy z niską entropią jednakże u połowy badanych zmieniono kolejność manipulacji eksperymentalnej tj. najpierw przeprowadzono warunek “B”, a jako drugi warunek “A”. Do obu opcji badani zostali przydzieleni losowo przez randomizację.
 \paragraph{}
-Badani zostali zaproszeni pojedynczo do sali w której panował relatywny początek, a  30 kulek rozproszonych w pomieszczeniu było trzech różnych kolorów. Następnie procedura została przeprowadzona w ten sam sposób co w grupie z niską entropią otoczenia - badani zostali poproszeni o obydwu warunków eksperymentalnych (“A” i “B”), połowa w kolejności “A”-”B”, zaś druga “B”-”A”. 
+\textbf{Grupa z wysoką entropią otoczenia.} Badani zostali zaproszeni pojedynczo do sali w której panował relatywny początek, a  30 kulek rozproszonych w pomieszczeniu było trzech różnych kolorów. Następnie procedura została przeprowadzona w ten sam sposób co w grupie z niską entropią otoczenia - badani zostali poproszeni o obydwu warunków eksperymentalnych (“A” i “B”), połowa w kolejności “A”-”B”, zaś druga “B”-”A”.
 \subsection*{\normalsize{\textbf{Etyka}}}
 \paragraph{}
 Zgoda etyczna na przeprowadzenie badania została otrzymana od prowadzącego przedmiot Metodologia Badań Psychologicznych, realizowanym na Gdańskim Uniwersytecie Medycznym. Badanie, ani kwestionariusz demograficzny nie zbiera danych wrażliwych. Uczestnicy zostali poinformowani o celu badania oraz o jego naturze. Zapewniono ich również, iż udział w badaniu jest zupełnie dobrowolny i w każdej chwili mogą z niego zrezygnować, przez cały czas pozostając anonimowym. Pozyskane zostało też potwierdzenie, że wszyscy uczestnicy ukończyli 18 lat i mają prawo do wyrażenia samodzielnej, świadomej zgody na udział w badaniu. 
 \subsection*{\normalsize{\textbf{Analiza statystyczna}}}
 \paragraph{}
-W celu udzielenia odpowiedzi na postawione pytanie badawcze oraz przetestowania postawionej hipotezy przeprowadzono analizy statystyczne przy użyciu języka programowania i środowiska obliczeniowego R Project for Statistical Computing \citep{r_core_team_r_2022}. Pierwszym wykonanym zabiegiem statystycznym było sprawdzenie normalności rozkładu testem Shapiro-Wilka, aby być w stanie dobrać odpowiednio następne testy statystyczne. Za poziom istotności przyjęto $\alpha$ = 0.05. 
-
+W celu udzielenia odpowiedzi na postawione pytanie badawcze oraz przetestowania postawionej hipotezy przeprowadzono analizy statystyczne przy użyciu języka programowania i środowiska obliczeniowego R Project for Statistical Computing \citep{r_core_team_r_2022}. Pierwszym wykonanym zabiegiem statystycznym było sprawdzenie normalności rozkładu testem Shapiro-Wilka oraz testem Kołmogorowa-Smirnowa, aby być w stanie dobrać odpowiednio następne testy statystyczne. Za poziom istotności przyjęto $\alpha = 0.05$. Wartość \textit{p} obydwu testów wyniosła $p < 2.2*10^{-16}$ co oznacza, że została przyjęta hipoteza zerowa mówiąca o rozkładzie odbiegającym od rozkładu normalnego. Graficznym przedstawieniem rozkładu uzyskanych wyników jest poniższy histogram \textit{(Rysunek 1)}. Z tego powodu, w celu statystycznego opisania otrzymanych wyników posłużono się testami nieparametrycznymi. Dodatkowo przeprowadzono pomiar siły efektu. 
+\begin{figure}[h]
+\centering
+\caption{Histogram przedstawiający rozkład wyników}
+\includegraphics[scale=1]{hist1}
+\label{Rysunek}
+\end{figure}
+\begin{center}
+\section*{\large{\textbf{\textsc{Wyniki}}}}
+\end{center}
+Po sprawdzeniu normalności rozkładu i wybraniu typu testów statystycznych, zostały policzone podstawowe statystyki opisowe dla zbioru danych odbiegających od rozkładu normalnego - miary tendencji centralnej, zmienności oraz asymetrii. Były to mediana, rozstęp międzykwartylowy, odchylenie ćwiartkowe, pozycjny współczynnik zmienności oraz pozycyjny współczynnik asymetrii. Dla całego zbioru danych mediana ($Med$) wyniosła $0.47$, rozkład międzykwartylowy ($IQR$) wyniósł $0.16$, odchylenie ćwiartkowe ($Q_x$) przyjęło wartość $0.079$, współczynnik zmienności ($V_Q$) miał wartość $16.96$, zaś asymetria ($A_{Q_{x}}$) wyniosła $0.40$. Wyniki powyższych cech statystycznych dla 4 badanych grup zostały przedstawione w \textit{Tabeli 1}. Dodatkowo narysowano wykres \textit{box and whiskers plot} dla powyższych grup \textit{(Rysunek 2)}.
+\begin{table}[h]
+\caption{Statystyki opisowe}
+\centering
+\begin{tabular}{l c c c c c}
+\hline\hline
+Grupa & $Med$ & $IQR$ & $Q_x$ & $V_Q$ & $A_{Q_{x}}$ \\ [0.5ex]
+\hline
+Mandala i wysoka entropia&0.47&0.16&0.080&17.19&0.39 \\
+Mandala i niska entropia&0.48&0.17&0.086&17.91&0.26 \\
+Kartka i wysoka entropia&0.45&0.13&0.064&14.17&0.46 \\
+Kartka i niska entropia&0.47&0.17&0.083&17.62&0.32 \\ [1ex]
+\hline
+\end{tabular}
+\label{Tabela}
+\end{table}
+\begin{figure}[h]
+\centering
+\caption{Box and whiskers plot przedstawiający mediany wyników w grupach}
+\includegraphics[scale=0.5]{box1}
+\label{Rysunek}
+\end{figure}
+\paragraph{}
+Poza opisem podstawowymi statystykami opisowymi przeprowadzono testy statystyczne badająće związek pomiędzy badanymi zmiennymi. Były to testy nieparametryczne. Były to testy badające osobne zależności między badanymi zmiennymi, oraz analiza wariancji dla wszystkich badanych zmiennych i ich interakcji. Wartości $p$ dla każdego z tych testów zostały przedstawione w \textit{Tabeli 2}.
+\begin{table}[h]
+\caption{Wartości $p$ obliczonych testów statystycznych}
+\centering
+\begin{tabular}{l c c c}
+\hline\hline
+ & Entropia & Kolorowanka & Interakcja \\ [0.5ex]
+\hline
+ & & Test U Manna-Whitneya& \\
+ &$0.0045$&-&- \\
+\hline
+ & & Test Wilcoxona & \\
+Czas reakcji&-&$0.017$&- \\ 
+\hline
+ & & Analiza wariancji & \\
+ &$3.69*10^{-5}$&$0.27$&$0.015$ \\
+\hline
+\end{tabular}
+\label{Tabela}
+\end{table}
+\paragraph{}
+Jak wynika z powyższych danych, wszystkie zależności są istotne statystycznie na poziomie istotności $\alpha = 0.05$ poza zależnością między faktem kolorowania, a czasem reakcji uzyskanym w teście uwagi, obliczonej za pomocą analizy wariancji. Różnica ta może wynikać z nieparanetryczności rozkładum, jak również z tego, że zmienna kolorowania mandali przeprowadzona była w grupach zależnych.
+\paragraph{}
+Wartości siły efektu dla obu grup są nieistotne. Dla wpływu kolorowania na czas reakcji w teście uwagi wartość współczynnika d Cohena wyniosła $0.037$, zaś dla wpływu entropii otoczenia na czas reakcji w teście uwagi wzrokowej wartość współczynnika d Cohena wyniosła $0.20$.
+\paragraph{}
+Dodatkowo pomimo braku tej predykcji w pytaniu badawczym oraz w hipotezie, zauważono iż może istnieć związek pomiędzy typem bodźca wzrokowego, a czasem reakcji oraz, że w przypadku różnych entropii otoczenia wyniki się różnią. W tym celu przeprowadzono test Kruskala-Wallisa oraz analizę wariancji z których wynika, że istnieje istotnie statystyczny związek między typem bodźca, a czasem reakcji oraz, że istnieje istotna interakcja między typem bodźca, a entriopią otoczenia. Wartości $p$ tych badań przedstawiono w \textit{Tabeli 3}, zaś graficzne różnice zostały przedstawione na poniższym wykresie \textit{box and whiskers plot (Rysunek 3)}.
+\begin{table}[h]
+\caption{Wartości $p$ obliczonych testów statystycznych}
+\centering
+\begin{tabular}{l c c c}
+\hline\hline
+ & Typ & & Interakcja z entropią \\ [0.5ex]
+\hline
+ & &Test Kruskala-Wallisa & \\ [2ex]
+Czas reakcji&$<2.2*10^{-16}$& &- \\
+\hline
+ & &Analiza wariancji& \\ [2ex]
+Czas reakcji&$<2.2*10^{-16}$& &$0.011$ \\
+\hline
+\end{tabular}
+\label{Tabela}
+\end{table}
+\begin{figure}[h]
+\centering
+\caption{Box and whiskers plot przedstawiający mediany wyników w grupach}
+\includegraphics[scale=0.5]{box2}
+\label{Rysunek}
+\end{figure}
+\begin{center}
+\section*{\large{\textbf{\textsc{Dyskusja}}}}
+\end{center}
 \newpage
 \bibliography{Biblio}
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.7)  5 JAN 2023 15:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.7)  15 JAN 2023 20:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -270,25 +270,38 @@ File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count199
 \l__pdf_internal_box=\box50
 )
-(./Artykul.aux)
+(./Artykul.aux
+
+LaTeX Warning: Label `Rysunek' multiply defined.
+
+
+LaTeX Warning: Label `Tabela' multiply defined.
+
+
+LaTeX Warning: Label `Tabela' multiply defined.
+
+
+LaTeX Warning: Label `Rysunek' multiply defined.
+
+)
 \openout1 = `Artykul.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -375,9 +388,15 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 36
+.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
+)
 
 LaTeX Font Warning: Font shape `T1/ptm/b/scit' undefined
-(Font)              using `T1/ptm/b/it' instead on input line 35.
+(Font)              using `T1/ptm/b/it' instead on input line 36.
 
 [1
 
@@ -393,35 +412,35 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1]
 LaTeX Font Info:    Trying to load font information for OML+plm on input line 6
-0.
+1.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/polski/omlplm.fd
 File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Trying to load font information for OMS+plsy on input line 
-60.
+61.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/polski/omsplsy.fd
 File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Trying to load font information for OMX+plex on input line 
-60.
+61.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/polski/omxplex.fd
 File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <12> on input line 60.
+(Font)              <12> on input line 61.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <8> on input line 60.
+(Font)              <8> on input line 61.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <6> on input line 60.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 60.
+(Font)              <6> on input line 61.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 61.
 
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 60.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 61.
 
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -454,6 +473,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4]
+<hist1.png, id=29, 421.575pt x 244.915pt>
+File: hist1.png Graphic file (type png)
+<use hist1.png>
+Package pdftex.def Info: hist1.png  used on input line 95.
+(pdftex.def)             Requested size: 421.57396pt x 244.91438pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -462,7 +490,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[5] (./Artykul.bbl
+[5]
+<box1.png, id=35, 596.2275pt x 421.575pt>
+File: box1.png Graphic file (type png)
+<use box1.png>
+Package pdftex.def Info: box1.png  used on input line 120.
+(pdftex.def)             Requested size: 298.11302pt x 210.78697pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -471,7 +508,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[6])
+[6 <./hist1.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -480,33 +517,81 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[7] (./Artykul.aux) ) 
+[7 <./box1.png>]
+<box2.png, id=46, 596.2275pt x 421.575pt>
+File: box2.png Graphic file (type png)
+<use box2.png>
+Package pdftex.def Info: box2.png  used on input line 169.
+(pdftex.def)             Requested size: 298.11302pt x 210.78697pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8 <./box2.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9] (./Artykul.bbl
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[10])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[11] (./Artykul.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4663 strings out of 478994
- 64881 string characters out of 5858184
- 367534 words of memory out of 5000000
- 22046 multiletter control sequences out of 15000+600000
- 447653 words of font info for 68 fonts, out of 8000000 for 9000
+ 4763 strings out of 478994
+ 66011 string characters out of 5858184
+ 369997 words of memory out of 5000000
+ 22141 multiletter control sequences out of 15000+600000
+ 447723 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,11n,78p,2563b,315s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/pl/plr
-m.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/pl/plme.enc}{/usr/loc
-al/texlive/2021/texmf-dist/fonts/enc/dvips/pl/plms.enc}{/usr/local/texlive/2021
-/texmf-dist/fonts/enc/dvips/pl/plmi.enc}{/usr/local/texlive/2021/texmf-dist/fon
-ts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public
-/pl/plex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/pl/plmi12
-.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/pl/plmi8.pfb></usr/
-local/texlive/2021/texmf-dist/fonts/type1/public/pl/plr12.pfb></usr/local/texli
-ve/2021/texmf-dist/fonts/type1/public/pl/plr8.pfb></usr/local/texlive/2021/texm
-f-dist/fonts/type1/public/pl/plsy10.pfb></usr/local/texlive/2021/texmf-dist/fon
-ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/u
-rw/times/utmbi8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/
-utmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pf
-b>
-Output written on Artykul.pdf (8 pages, 93488 bytes).
+ 72i,13n,78p,2563b,380s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/pl/plmi.enc}{/usr/local/t
+exlive/2021/texmf-dist/fonts/enc/dvips/pl/plms.enc}{/usr/local/texlive/2021/tex
+mf-dist/fonts/enc/dvips/pl/plrm.enc}{/usr/local/texlive/2021/texmf-dist/fonts/e
+nc/dvips/pl/plme.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8
+r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/pl/plex10.pfb></us
+r/local/texlive/2021/texmf-dist/fonts/type1/public/pl/plmi12.pfb></usr/local/te
+xlive/2021/texmf-dist/fonts/type1/public/pl/plmi6.pfb></usr/local/texlive/2021/
+texmf-dist/fonts/type1/public/pl/plmi8.pfb></usr/local/texlive/2021/texmf-dist/
+fonts/type1/public/pl/plr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1
+/public/pl/plr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/pl/p
+lsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/pl/plsy8.pfb><
+/usr/local/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/lo
+cal/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texliv
+e/2021/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2021/te
+xmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2021/texmf-dist/f
+onts/type1/urw/times/utmri8a.pfb>
+Output written on Artykul.pdf (12 pages, 144866 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
- 55 compressed objects within 1 object stream
+ 107 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

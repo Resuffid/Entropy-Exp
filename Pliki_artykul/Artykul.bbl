@@ -59,6 +59,12 @@ McConnell, M.~M. and Shore, D.~I. (2011).
   attention.
 \newblock {\em Cognition and Emotion}, 25(7):1184--1195.
 
+\bibitem[Peirce et~al., 2019]{peirce_psychopy2_2019}
+Peirce, J., Gray, J.~R., Simpson, S., MacAskill, M., Höchenberger, R., Sogo,
+  H., Kastman, E., and Lindeløv, J.~K. (2019).
+\newblock {PsychoPy2}: {Experiments} in behavior made easy.
+\newblock {\em Behavior Research Methods}, 51(1):195--203.
+
 \bibitem[{R Core Team}, 2022]{r_core_team_r_2022}
 {R Core Team} (2022).
 \newblock R: {A} {Language} and {Environment} for {Statistical} {Computing}.
