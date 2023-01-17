@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.7)  18 JAN 2023 00:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.7)  18 JAN 2023 00:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -643,7 +643,7 @@ s/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/ur
 w/times/utmbi8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/u
 tmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on Artykul.pdf (15 pages, 172887 bytes).
+Output written on Artykul.pdf (15 pages, 172871 bytes).
 PDF statistics:
  131 PDF objects out of 1000 (max. 8388607)
  89 compressed objects within 1 object stream
