@@ -140,7 +140,7 @@ mean(df3$Wiek)
 dane1%>%
   group_by(`Płeć (K/M)`)%>%
   summarise(N=n())
-t.test(time~Entropy)
+t.test(timeb1~entropiab1)
 t.test(time~Kolor, paired=TRUE)
 anova(time~typy)
 
