@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.7)  19 JAN 2023 00:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.7)  20 JAN 2023 01:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -494,12 +494,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4]
-<hist1.png, id=29, 596.2275pt x 421.575pt>
-File: hist1.png Graphic file (type png)
-<use hist1.png>
-Package pdftex.def Info: hist1.png  used on input line 97.
-(pdftex.def)             Requested size: 298.11302pt x 210.78697pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -509,10 +503,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [5]
+<hist1.png, id=32, 596.2275pt x 421.575pt>
+File: hist1.png Graphic file (type png)
+<use hist1.png>
+Package pdftex.def Info: hist1.png  used on input line 99.
+(pdftex.def)             Requested size: 298.11302pt x 210.78697pt.
 <hist2.png, id=34, 596.2275pt x 421.575pt>
 File: hist2.png Graphic file (type png)
 <use hist2.png>
-Package pdftex.def Info: hist2.png  used on input line 103.
+Package pdftex.def Info: hist2.png  used on input line 105.
 (pdftex.def)             Requested size: 298.11302pt x 210.78697pt.
 
 
@@ -523,28 +522,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[6 <./hist1.png>]
-<box1.png, id=41, 596.2275pt x 421.575pt>
+[6]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7 <./hist1.png> <./hist2.png>]
+<box1.png, id=46, 596.2275pt x 421.575pt>
 File: box1.png Graphic file (type png)
 <use box1.png>
-Package pdftex.def Info: box1.png  used on input line 129.
+Package pdftex.def Info: box1.png  used on input line 131.
 (pdftex.def)             Requested size: 298.11302pt x 210.78697pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[7 <./hist2.png>]
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <10> on input line 146.
+(Font)              <10> on input line 148.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <7> on input line 146.
+(Font)              <7> on input line 148.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <5> on input line 146.
+(Font)              <5> on input line 148.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -555,10 +553,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [8 <./box1.png>]
-<box2.png, id=54, 596.2275pt x 421.575pt>
+<box2.png, id=51, 596.2275pt x 421.575pt>
 File: box2.png Graphic file (type png)
 <use box2.png>
-Package pdftex.def Info: box2.png  used on input line 177.
+Package pdftex.def Info: box2.png  used on input line 179.
 (pdftex.def)             Requested size: 298.11302pt x 210.78697pt.
 
 
@@ -587,7 +585,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[11] (./Artykul.bbl
+[11]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -605,7 +603,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[13])
+[13]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -614,7 +612,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[14]
+[14] (./Artykul.bbl
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -623,19 +621,46 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[15] (./Artykul.aux)
+[15]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[16])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[17]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[18] (./Artykul.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4949 strings out of 478994
- 68790 string characters out of 5858184
- 378304 words of memory out of 5000000
- 22309 multiletter control sequences out of 15000+600000
+ 4958 strings out of 478994
+ 68919 string characters out of 5858184
+ 378444 words of memory out of 5000000
+ 22318 multiletter control sequences out of 15000+600000
  454061 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,13n,78p,3596b,380s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 72i,13n,78p,3212b,380s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/pl/plrm.enc}{/usr/local/t
 exlive/2021/texmf-dist/fonts/enc/dvips/pl/plmi.enc}{/usr/local/texlive/2021/tex
 mf-dist/fonts/enc/dvips/pl/plms.enc}{/usr/local/texlive/2021/texmf-dist/fonts/e
@@ -655,10 +680,10 @@ s/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/ur
 w/times/utmbi8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/u
 tmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on Artykul.pdf (16 pages, 176112 bytes).
+Output written on Artykul.pdf (19 pages, 182380 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
- 91 compressed objects within 1 object stream
+ 144 PDF objects out of 1000 (max. 8388607)
+ 98 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
