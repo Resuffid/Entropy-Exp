@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.7)  20 JAN 2023 01:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.7)  21 JAN 2023 17:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -660,7 +660,7 @@ Here is how much of TeX's memory you used:
  22318 multiletter control sequences out of 15000+600000
  454061 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,13n,78p,3212b,380s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 72i,13n,78p,3213b,380s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/pl/plrm.enc}{/usr/local/t
 exlive/2021/texmf-dist/fonts/enc/dvips/pl/plmi.enc}{/usr/local/texlive/2021/tex
 mf-dist/fonts/enc/dvips/pl/plms.enc}{/usr/local/texlive/2021/texmf-dist/fonts/e
@@ -680,7 +680,7 @@ s/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/ur
 w/times/utmbi8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/u
 tmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on Artykul.pdf (19 pages, 182380 bytes).
+Output written on Artykul.pdf (19 pages, 182622 bytes).
 PDF statistics:
  144 PDF objects out of 1000 (max. 8388607)
  98 compressed objects within 1 object stream
